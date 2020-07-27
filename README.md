@@ -1,2 +1,4 @@
-# micro-grotesk
-A 256 UPM typeface in the smallest possible file size.
+# Micro Grotesk
+A 256 UPM typeface designed to have a small file size.
+
+![basic specimen](documentation/drawbot/basic-specimen.gif)
