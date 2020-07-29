@@ -46,10 +46,10 @@ grid() # Toggle for grid view
 font("../../fonts/MicroGrotesk.ttf")
 fill(1)
 stroke(None)
-text("ABCDEFGHIJKLMNOPQRSTUV",(M*1, M*13))
-text("WXYZabcdefghijklmnopqrstuv",(M*1, M*11))
-text("wxyz",(M*1, M*9))
-font("Helvetica")
+text("Micro Grotesk",(M*1, M*13))
+text("ABCDEFGHIJKLMNOPQRSTUV",(M*1, M*9))
+text("WXYZabcdefghijklmnopqrstuv",(M*1, M*7))
+text("wxyz",(M*1, M*5))
 text("5k",(M*1, M*1))
 
 # SAVE THE OUTPUT IN THIS SCRIPT'S DIRECTORY LOCATION
