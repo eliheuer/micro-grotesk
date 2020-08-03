@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="6"/>
+      <map input="200" output="12"/>
+      <map input="300" output="17"/>
+      <map input="400" output="22"/>
+      <map input="500" output="28"/>
+      <map input="600" output="32"/>
+      <map input="700" output="36"/>
+      <map input="800" output="42"/>
+      <map input="900" output="50"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="MicroGrotesk-Thin.ufo" name="Micro Grotesk Thin" familyname="Micro Grotesk" stylename="Thin">
+      <location>
+        <dimension name="Weight" xvalue="6"/>
+      </location>
+    </source>
+    <source filename="MicroGrotesk-Regular.ufo" name="Micro Grotesk Regular" familyname="Micro Grotesk" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="22"/>
+      </location>
+    </source>
+    <source filename="MicroGrotesk-Black.ufo" name="Micro Grotesk Black" familyname="Micro Grotesk" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Micro Grotesk Thin" familyname="Micro Grotesk" stylename="Thin" filename="../instance_ufo/MicroGrotesk-Thin.ufo" stylemapfamilyname="Micro Grotesk Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="6"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Micro Grotesk ExtraLight" familyname="Micro Grotesk" stylename="ExtraLight" filename="../instance_ufo/MicroGrotesk-ExtraLight.ufo" stylemapfamilyname="Micro Grotesk ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Micro Grotesk Light" familyname="Micro Grotesk" stylename="Light" filename="../instance_ufo/MicroGrotesk-Light.ufo" stylemapfamilyname="Micro Grotesk Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="17"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Micro Grotesk Regular" familyname="Micro Grotesk" stylename="Regular" filename="../instance_ufo/MicroGrotesk-Regular.ufo" stylemapfamilyname="Micro Grotesk" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="22"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Micro Grotesk Medium" familyname="Micro Grotesk" stylename="Medium" filename="../instance_ufo/MicroGrotesk-Medium.ufo" stylemapfamilyname="Micro Grotesk Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Micro Grotesk SemiBold" familyname="Micro Grotesk" stylename="SemiBold" filename="../instance_ufo/MicroGrotesk-SemiBold.ufo" stylemapfamilyname="Micro Grotesk SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="32"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Micro Grotesk Bold" familyname="Micro Grotesk" stylename="Bold" filename="../instance_ufo/MicroGrotesk-Bold.ufo" stylemapfamilyname="Micro Grotesk" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Micro Grotesk ExtraBold" familyname="Micro Grotesk" stylename="ExtraBold" filename="../instance_ufo/MicroGrotesk-ExtraBold.ufo" stylemapfamilyname="Micro Grotesk ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Micro Grotesk Black" familyname="Micro Grotesk" stylename="Black" filename="../instance_ufo/MicroGrotesk-Black.ufo" stylemapfamilyname="Micro Grotesk Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

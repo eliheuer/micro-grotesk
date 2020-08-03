@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>256</integer>
+    <key>capHeight</key>
+    <integer>192</integer>
+    <key>descender</key>
+    <integer>-64</integer>
+    <key>familyName</key>
+    <string>Micro Grotesk</string>
+    <key>italicAngle</key>
+    <integer>0</integer>
+    <key>openTypeHeadCreated</key>
+    <string>2020/07/25 06:31:50</string>
+    <key>openTypeNameDesigner</key>
+    <string>Eli Heuer</string>
+    <key>openTypeNameDesignerURL</key>
+    <string>elih.blog</string>
+    <key>openTypeNameManufacturer</key>
+    <string>GTF</string>
+    <key>openTypeNameManufacturerURL</key>
+    <string>gtf.world</string>
+    <key>openTypeOS2Type</key>
+    <array>
+      <integer>3</integer>
+    </array>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>styleMapFamilyName</key>
+    <string>Micro Grotesk Thin</string>
+    <key>styleMapStyleName</key>
+    <string>regular</string>
+    <key>styleName</key>
+    <string>Thin</string>
+    <key>unitsPerEm</key>
+    <integer>256</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
+    <key>xHeight</key>
+    <integer>144</integer>
+  </dict>
+</plist>

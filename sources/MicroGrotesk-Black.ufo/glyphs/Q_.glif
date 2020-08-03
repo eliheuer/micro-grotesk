@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Q" format="2">
+  <advance width="204"/>
+  <unicode hex="0051"/>
+  <outline>
+    <contour>
+      <point x="150" y="-14" type="line"/>
+      <point x="192" y="-14" type="line"/>
+      <point x="124" y="70" type="line"/>
+      <point x="84" y="70" type="line"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+</glyph>
