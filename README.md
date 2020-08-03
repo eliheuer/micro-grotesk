@@ -1,5 +1,5 @@
 # Micro Grotesk
-⚠️ Work in progress: A 256 UPM typeface designed to have a small file size.
+⚠️ Work in progress: A classic grotesk typeface as a 256-UPM variable font, designed to have a small file size.
 
 ![basic specimen](documentation/animations/variable-font-specimen-001.gif)
 
