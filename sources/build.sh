@@ -45,19 +45,15 @@ set -e
 ##################
 alias ACTIVATE_PY_VENV=". BUILD_VENV/bin/activate"  # Starts a Python 3 virtual environment when invoked
 GOOGLE_FONTS_DIR="~/Google/fonts"                   # Where the Google Fonts repo is cloned: https://github.com/google/fonts
-OUTPUT_DIR="fonts"                                  # Where the output from this script goes
-FAMILY_NAME="Micro Grotesk"                         # Font family name for output files
-DESIGNSPACE="micro-grotesk.designspace"             # Set the source file to build from
-GLYPHS="micro-grotesk.glyphs"             # Set the source file to build from
 MAKE_NEW_VENV=true                                  # Set to `true` if you want to build and activate a python3 virtual environment
 BUILD_STATIC_FONTS=true                             # Set to `true` if you want to build static fonts
-#AUTOHINT=false                                     # Set to `true` if you want to use auto-hinting (ttfautohint)
+AUTOHINT=false                                      # Set to `true` if you want to use auto-hinting (ttfautohint)
 NOHINTING=true                                      # Set to `true` if you want the fonts unhinted
 
 #################
 # BUILD PROCESS #
 #################
-echo "\n* ** **** ** * STARTING THE GTF MICRO GROTESK BUILD SCRIPT * ** **** ** *"
+echo "\n****** ** * STARTING THE GTF MICRO GROTESK BUILD SCRIPT * ** ******"
 echo "[INFO] Build start time: \c"
 date
 
@@ -79,13 +75,13 @@ if [ "$MAKE_NEW_VENV" = true ]; then
 fi
 
 # BUILD SETUP
-echo "\n[INFO] Setting up build output directories: $OUTPUT_DIR"
-mkdir -p $OUTPUT_DIR
+echo "\n[INFO] Setting up build output directories: fonts"
+mkdir -p fonts
 
 # FONTMAKE (building the variable font)
-echo "\n[INFO] Building $FAMILY_NAME variable fonts with Fontmake..."
-fontmake -g sources/$GLYPHS -o variable \
-  --output-path $OUTPUT_DIR/MicroGrotesk[wght].ttf
+echo "\n[INFO] Building variable fonts with Fontmake..."
+fontmake -m sources/MicroGrotesk.designspace -o variable \
+  --output-path fonts/MicroGrotesk[wght].ttf
 #  --verbose ERROR
 
 #echo "\n[INFO] Making fixes to the fontmake output"
