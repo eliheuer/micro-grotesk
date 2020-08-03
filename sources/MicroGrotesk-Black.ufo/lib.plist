@@ -19,6 +19,12 @@
     <array>
       <string>1</string>
       <string>l</string>
+      <string>O</string>
+      <string>4</string>
+      <string>i</string>
+      <string>p</string>
+      <string>q</string>
+      <string>v</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>

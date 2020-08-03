@@ -2,7 +2,13 @@
 .appVersion = "1343";
 DisplayStrings = (
 "1",
-l
+l,
+O,
+"4",
+i,
+p,
+q,
+v
 );
 customParameters = (
 {
@@ -1314,7 +1320,7 @@ unicode = 004E;
 },
 {
 glyphname = O;
-lastChange = "2020-08-02 02:36:44 +0000";
+lastChange = "2020-08-03 02:48:56 +0000";
 layers = (
 {
 layerId = "B7C9AB5D-FCF9-4269-AD58-638C2721BDA6";
@@ -1322,6 +1328,9 @@ paths = (
 {
 closed = 1;
 nodes = (
+"145 -3 OFFCURVE",
+"180 36 OFFCURVE",
+"180 96 CURVE",
 "180 154 OFFCURVE",
 "145 193 OFFCURVE",
 "98 192 CURVE SMOOTH",
@@ -1330,18 +1339,12 @@ nodes = (
 "16 96 CURVE",
 "15 36 OFFCURVE",
 "50 -3 OFFCURVE",
-"98 -2 CURVE SMOOTH",
-"145 -3 OFFCURVE",
-"180 36 OFFCURVE",
-"180 96 CURVE"
+"98 -2 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"158 47 OFFCURVE",
-"131 19 OFFCURVE",
-"98 18 CURVE SMOOTH",
 "64 19 OFFCURVE",
 "37 47 OFFCURVE",
 "38 96 CURVE",
@@ -1350,7 +1353,10 @@ nodes = (
 "98 172 CURVE SMOOTH",
 "131 172 OFFCURVE",
 "158 143 OFFCURVE",
-"158 96 CURVE"
+"158 96 CURVE",
+"158 47 OFFCURVE",
+"131 19 OFFCURVE",
+"98 18 CURVE SMOOTH"
 );
 }
 );
@@ -1379,9 +1385,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"140 63 OFFCURVE",
-"127 41 OFFCURVE",
-"102 42 CURVE SMOOTH",
 "77 41 OFFCURVE",
 "63 63 OFFCURVE",
 "64 97 CURVE SMOOTH",
@@ -1390,7 +1393,10 @@ nodes = (
 "102 150 CURVE SMOOTH",
 "127 151 OFFCURVE",
 "140 130 OFFCURVE",
-"140 97 CURVE SMOOTH"
+"140 97 CURVE SMOOTH",
+"140 63 OFFCURVE",
+"127 41 OFFCURVE",
+"102 42 CURVE SMOOTH"
 );
 }
 );
@@ -3530,7 +3536,7 @@ unicode = 0068;
 },
 {
 glyphname = i;
-lastChange = "2020-08-02 20:16:17 +0000";
+lastChange = "2020-08-03 03:31:16 +0000";
 layers = (
 {
 layerId = "B7C9AB5D-FCF9-4269-AD58-638C2721BDA6";
@@ -3547,10 +3553,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"20 164 LINE",
 "42 164 LINE",
 "42 192 LINE",
-"20 192 LINE"
+"20 192 LINE",
+"20 164 LINE"
 );
 }
 );
@@ -3586,19 +3592,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"28 158 LINE",
-"28 192 LINE",
-"22 192 LINE",
-"22 158 LINE"
+"28 0 LINE",
+"28 144 LINE",
+"22 144 LINE",
+"22 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"28 0 LINE",
-"28 144 LINE",
-"22 144 LINE",
-"22 0 LINE"
+"28 158 LINE",
+"28 192 LINE",
+"22 192 LINE",
+"22 158 LINE"
 );
 }
 );
@@ -4209,7 +4215,7 @@ unicode = 006F;
 },
 {
 glyphname = p;
-lastChange = "2020-08-02 21:01:36 +0000";
+lastChange = "2020-08-03 03:33:53 +0000";
 layers = (
 {
 layerId = "B7C9AB5D-FCF9-4269-AD58-638C2721BDA6";
@@ -4239,6 +4245,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"55 16 OFFCURVE",
+"40 41 OFFCURVE",
+"40 72 CURVE SMOOTH",
 "40 103.016 OFFCURVE",
 "55 126 OFFCURVE",
 "80 126 CURVE SMOOTH",
@@ -4247,10 +4256,7 @@ nodes = (
 "122 72 CURVE SMOOTH",
 "122 42 OFFCURVE",
 "108 16 OFFCURVE",
-"80 16 CURVE SMOOTH",
-"55 16 OFFCURVE",
-"40 41 OFFCURVE",
-"40 72 CURVE SMOOTH"
+"80 16 CURVE SMOOTH"
 );
 }
 );
@@ -4284,6 +4290,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"70 36 OFFCURVE",
+"62 49 OFFCURVE",
+"62 70 CURVE",
 "62 91 OFFCURVE",
 "70 106 OFFCURVE",
 "84 106 CURVE SMOOTH",
@@ -4292,10 +4301,7 @@ nodes = (
 "106 70 CURVE SMOOTH",
 "106 49 OFFCURVE",
 "98.036 36 OFFCURVE",
-"84 36 CURVE SMOOTH",
-"70 36 OFFCURVE",
-"62 49 OFFCURVE",
-"62 70 CURVE"
+"84 36 CURVE SMOOTH"
 );
 }
 );
@@ -4351,7 +4357,7 @@ unicode = 0070;
 },
 {
 glyphname = q;
-lastChange = "2020-08-02 21:05:37 +0000";
+lastChange = "2020-08-03 03:35:25 +0000";
 layers = (
 {
 layerId = "B7C9AB5D-FCF9-4269-AD58-638C2721BDA6";
@@ -4381,9 +4387,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"116 40 OFFCURVE",
-"100 16 OFFCURVE",
-"76 16 CURVE SMOOTH",
 "48 16 OFFCURVE",
 "34 42 OFFCURVE",
 "34 72 CURVE SMOOTH",
@@ -4392,7 +4395,10 @@ nodes = (
 "76 126 CURVE SMOOTH",
 "100 126 OFFCURVE",
 "116 104.062 OFFCURVE",
-"116 72 CURVE SMOOTH"
+"116 72 CURVE SMOOTH",
+"116 40 OFFCURVE",
+"100 16 OFFCURVE",
+"76 16 CURVE SMOOTH"
 );
 }
 );
@@ -4932,7 +4938,7 @@ unicode = 0075;
 },
 {
 glyphname = v;
-lastChange = "2020-08-02 21:10:04 +0000";
+lastChange = "2020-08-03 03:36:24 +0000";
 layers = (
 {
 layerId = "B7C9AB5D-FCF9-4269-AD58-638C2721BDA6";
@@ -4940,13 +4946,13 @@ paths = (
 {
 closed = 1;
 nodes = (
+"82 0 LINE",
+"134 144 LINE",
 "110 144 LINE",
 "71 28 LINE",
 "32 144 LINE",
 "8 144 LINE",
-"60 0 LINE",
-"82 0 LINE",
-"134 144 LINE"
+"60 0 LINE"
 );
 }
 );
@@ -5766,7 +5772,7 @@ unicode = 0033;
 },
 {
 glyphname = four;
-lastChange = "2020-08-02 22:51:22 +0000";
+lastChange = "2020-08-03 02:50:15 +0000";
 layers = (
 {
 layerId = "B7C9AB5D-FCF9-4269-AD58-638C2721BDA6";
@@ -5774,8 +5780,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"102 42 LINE",
-"102 0 LINE",
 "124 0 LINE",
 "124 42 LINE",
 "150 42 LINE",
@@ -5784,7 +5788,9 @@ nodes = (
 "124 192 LINE",
 "96 192 LINE",
 "14 60 LINE",
-"14 42 LINE"
+"14 42 LINE",
+"102 42 LINE",
+"102 0 LINE"
 );
 },
 {
