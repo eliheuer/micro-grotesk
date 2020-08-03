@@ -57,7 +57,7 @@ NOHINTING=true                                      # Set to `true` if you want 
 #################
 # BUILD PROCESS #
 #################
-echo "\n* ** **** ** * STARTING THE MICRO GROTESK BUILD SCRIPT * ** **** ** *"
+echo "\n* ** **** ** * STARTING THE GTF MICRO GROTESK BUILD SCRIPT * ** **** ** *"
 echo "[INFO] Build start time: \c"
 date
 
@@ -84,8 +84,8 @@ mkdir -p $OUTPUT_DIR
 
 # FONTMAKE (building the variable font)
 echo "\n[INFO] Building $FAMILY_NAME variable fonts with Fontmake..."
-fontmake -g sources/$GLYPHS -o ttf \
-  --output-path $OUTPUT_DIR/MicroGrotesk.ttf
+fontmake -g sources/$GLYPHS -o variable \
+  --output-path $OUTPUT_DIR/MicroGrotesk[wght].ttf
 #  --verbose ERROR
 
 #echo "\n[INFO] Making fixes to the fontmake output"
