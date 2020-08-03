@@ -1,7 +1,7 @@
 # Micro Grotesk
 ⚠️ Work in progress: A 256 UPM typeface designed to have a small file size.
 
-![basic specimen](documentation/drawbot/basic-specimen.gif)
+![basic specimen](documentation/animations/variable-font-specimen-001.gif)
 
 ## Development
 
