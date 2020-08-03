@@ -1,4 +1,4 @@
-# Micro Grotes
+# Micro Grotesk
 ⚠️ Work in progress. A classic sans-serif grotesque typeface as a 256-UPM variable font, designed to have a small file size.
 
 ![basic specimen](documentation/animations/variable-font-specimen-001.gif)
